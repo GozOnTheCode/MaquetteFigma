@@ -1,0 +1,217 @@
+@font-face {
+    font-family: RLighter;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RBold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RText;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 35px;
+    li {
+        display: inline-block;
+        width: 64px;
+        color: #7E7E7E;
+        font-family: RText;
+    }
+    .logo {
+        width: 60px;
+    }
+    button {
+        color: #536dfe;
+        border: solid 1px #536dfe;
+        border-radius: 50px;
+        padding: 10px 15px;
+        background-color: transparent;
+    }
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image-middle {
+        img {
+            width: 720px;
+        }
+    }
+    .div-pres {
+        .p-activity {
+            font-family: RLighter;
+            color: #536DFE;
+            font-size: 18px;
+            letter-spacing: 0.065em;
+            text-transform: uppercase;
+            font-weight: lighter;
+        }
+        .h1-name {
+            color: black;
+            font-size: 80px;
+            font-family: RBold;
+        }
+        .p-me {
+            color: #7E7E7E;
+            font-style: normal;
+            font-family: RText;
+            font-weight: lighter;
+            letter-spacing: 0.035em;
+        }
+        .hire {
+            background: #536DFE;
+            border-radius: 26px;
+            padding: 10px 30px;
+            color: white;
+            font-family: RLighter;
+            border: none;
+            margin-top: 20px;
+        }
+    }
+}
+
+.ntmy {
+    height: 555px;
+    background: #536DFE;
+    margin-top: 10%;
+    text-align: center;
+    .text-ntmy {
+        display: inline-block;
+        padding: 50px;
+        h1 {
+            color: white;
+            font-family: RBold;
+            font-size: 85px;
+            letter-spacing: 0.005em;
+        }
+        p {
+            color: white;
+            font-size: 24px;
+            letter-spacing: 0.005em;
+            line-height: 144.69%;
+            font-family: RText;
+            margin-top: 60px;
+        }
+    }
+}
+
+.all-box {
+    margin: 50px;
+    .box-people {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .box1 {
+            text-align: center;
+            margin: 50px;
+            width: 599px;
+            height: 670px;
+            background: #FFFFFF;
+            box-shadow: 0px 18px 95px rgba(83, 109, 254, 0.19);
+            border-radius: 60px;
+            img {
+                margin-top: 80px;
+            }
+            h1 {
+                color: #323232;
+                font-family: RBold;
+                margin-top: 50px;
+            }
+            p {
+                color: black;
+                letter-spacing: 0.065em;
+                font-size: 15px;
+                margin-top: 15px;
+                font-weight: 300;
+                font-family: RText;
+                line-height: 20px;
+
+            }
+        }
+    }
+}
+
+.work {
+    .h1-work {
+        color: black;
+        font-size: 60px;
+        line-height: 84px;
+        font-family: RBold;
+        text-align: center;
+    }
+    .separate {
+        background-color: #536DFE;
+        width: 97px;
+        height: 3px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .all-card {
+        display: flex;
+        justify-content: center;
+        .card {
+            background: linear-gradient(180deg, #2E47CE 0%, #2D3770 100%);
+            width: 414px;
+            height: 233px;
+            border-radius: 20px;
+            margin: 64px;
+        }
+    }
+}
+
+.button-more {
+    display: flex;
+    justify-content: center;
+    button {
+        box-sizing: border-box;
+        border: 3px solid #536DFE;
+        border-radius: 42.5px;
+        background-color: transparent;
+        font-family: RBold;
+        font-size: 26px;
+        color: #536DFE;
+        padding: 15px 150px;
+    }
+}
+
+footer {
+    height: 372px;
+    width: 100%;
+    background: #536DFE;
+    margin-top: 70px;
+    h1 {
+        color: white;
+        font-size: 64px;
+        font-family: RBold;
+        text-align: center;
+        transform: translateY(120px);
+    }
+    .footer-icon {
+        text-align: center;
+        transform: translateY(180px);
+    }
+    ion-icon {
+        color: white;
+        font-size: 21px;
+        border: solid 1px white;
+        border-radius: 50%;
+        padding: 15px;
+        margin: 15px;
+    }
+}
