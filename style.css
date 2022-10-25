@@ -1,14 +1,14 @@
 @font-face {
   font-family: RLighter;
-  src: url(../font/Roboto-Regular.ttf);
+  src: url(./font/Roboto-Regular.ttf);
 }
 @font-face {
   font-family: RBold;
-  src: url(../font/Roboto-Bold.ttf);
+  src: url(./font/Roboto-Bold.ttf);
 }
 @font-face {
   font-family: RText;
-  src: url(../font/Roboto-Medium.ttf);
+  src: url(./font/Roboto-Medium.ttf);
 }
 * {
   padding: 0;
